@@ -10,9 +10,14 @@
 
 <body>
     <div class = "container" >  
-      <a href="https://www.Do-it.com/"> Do-it.com </a>
-      <p1> Start a new project </p1> 
-      <br>
+      <div class = "row">
+          <div class = "span2">
+            <a href="https://www.Do-it.com/"> Do-it.com </a>
+          </div>
+          <div class = "span2 offset8">
+            <p> Start a new project </p>
+          </div>
+      </div>
    </div>
    
     <div class = "container" >  
@@ -23,52 +28,40 @@
               <div class="span3">
                  <div class = "collaborator">
                     <h1 class = "collaborator_name_colour1"> Shishupal</h1>
-                    <ol>
+                    <ol id = "collaborator1">
                         <li>
                           <div class="task">
                             <span class="task-description">Fun</span>
                           </div>
                         </li>
-                       <li>
-                          <div  class="create-newtask">
-                            <input  type="text" />
-                          </div>
-                        </li>
                      </ol>
+                     <input type="text" onchange="mynewFunction1(this)" />
                   </div>
               </div>
               <div class="span3">
                 <div class = "collaborator">
                   <h1 class = "collaborator_name_colour2">Anurag</h1>
-                  <ol>
+                  <ol id = "collaborator2">
                       <li>
                           <div class="task">
                             <span class="task-description">Fun</span>
                           </div>
                        </li>
-                       <li>
-                          <div class="create-newtask">
-                            <input type="text"/>
-                          </div>
-                      </li>
                   </ol>
+                  <input type="text" onchange="mynewFunction2(this)" />
                   </div>
               </div>
               <div class="span3">
                 <div class = "collaborator">
                   <h1 class = "collaborator_name_colour3">Saurabh</h1>
-                  <ol>
+                  <ol id = collaborator3>
                       <li>
                           <div class="task">
                             <span class="task-description">Fun</span>
                           </div>
                        </li>
-                       <li>
-                          <div class="create-newtask">
-                            <input type="text"/>
-                          </div>
-                      </li>
                   </ol>
+                  <input type="text" onchange="mynewFunction3(this)" />
                  </div>
               </div>
               <div class="span3" >
@@ -76,58 +69,53 @@
                   <div class="create-newtask">
                         <span class="task-handle">&nbsp;</span>
                         <input type="text"/>
-                        <button type="button" onclick="alert('Hello world!')">Add</button>
-                        <button onclick="myFunction()">Try it</button>
                   </div>
                   <h1 class = "collaborator_new_colour3">Add New Collaborator</h1>
+                  <button id ="ad">+Add</button>
                 </div>
               </div>
            </div>
     </div>
+    
     <div class = "strip1"> </div>
     <div class = "strip2"> </div>
     <div class = "strip1"> </div>
+    
     <div class = "container">
         <div class = "row">
             <div class = "span3">
               <div class = "collaborator">
                 <h1 class = "footer_collaborator">BACKLOG</h1>
-                <ol>
+                <ol id = "BACKLOG">
                         <li>
                           <div class="task">
                             <span class="task-description">Fun</span>
                           </div>
                         </li>
-                       <li>
-                          <div  class="create-newtask">
-                            <input  type="text" />
-                          </div>
-                        </li>
                      </ol>
+                     <input type="text" onchange="BACKLOG(this)" />
               </div>
             </div>
             <div class = "span3">
               <div class = "collaborator">
-                <h1 class = "footer_collaborator">DONE ITEMS</h1>
-                <ol>
+                <h1 class = "footer_collaborator">DONE_ITEMS</h1>
+                <ol id = "DONE_ITEMS">
                         <li>
                           <div class="task">
                             <span class="task-description">Fun</span>
                           </div>
                         </li>
-                       <li>
-                          <div  class="create-newtask">
-                            <input  type="text" />
-                          </div>
-                        </li>
                      </ol>
+                  <input type="text" onchange="DONE_ITEMS(this)" />
               </div>
            </div>
          </div>
     </div>
 
+
+  <script src="../static/js/jquery-1.8.3.min.js"></script>
   <script src="../static/js/todolist.js"></script>
+  
 </body>
 
 </html>
-
