@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+.myheader{
+ font-size : 30px;
+ margin-left : 100px;
+ margin-right : 100px;
+ margin-top : 50px;
+ height : 10px;
+}
+
+.task-container{
+ height : 500px;
+ 
+ margin-right :10px;
+}
+.task-container .collaborator{
+ width : 200px;
+}
+.collaboratornew{
+  margin-top : 10px;
+  background-color: gray;
+  font-size : 15px;
+  width : 220px;
+  height : 300px;
+}
+.myfooter{
+ background-color:gray;
+ margin-left : 100px;
+ margin-right : 100px;
+ height : 200px;
+}
+.collaborator{
+  border-style:dotted;
+  border-width:1px;
+  border-color: black;
+}
+.collaborator_name_colour1{
+ color: red;
+ font-size: 20px;
+}
+.collaborator_name_colour2{
+ font-size: 20px;
+ color: green;
+}
+.collaborator_name_colour3{
+ font-size: 20px;
+ color: blue;
+}
+.collaborator_new_colour3{
+ font-size: 20px;
+ color: black;
+}
+.footer_collaborator{
+ font-size: 20px;
+ color: black;
+}
+.strip1{
+ height: 50px;
+}
+.strip2{
+ background-color: gray;
+ height: 5px;
+}
+/* This is for Start new project */
+input[type="text"] {
+ width: 150px;
+}
+
+p1{
+  float :right;
+  color: red;
+  }
+h1{
+  text-align: left;
+  }
+ h2{
+  text-align: center;
+  }
+ h3{
+  text-align: right;
+  }
+ h4{
+  text-align: justify;
+  }
