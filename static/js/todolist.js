@@ -1,3 +1,22 @@
+$("#ad").click(function(){
+
+$($(".collaborator")[0]).clone().insertBefore($(".collaborator")[3]);
+
+
+});
+
+
+
+
+function myFunction(el) {
+	var x = el.value;
+	var y = document.createElement("li");
+	y.innerHTML = x;
+	$(el).parent().append(y);
+
+	}
+
+
 function mynewFunction1(el)
 {
        var x=el.value;
