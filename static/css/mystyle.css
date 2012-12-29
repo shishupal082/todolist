@@ -65,11 +65,14 @@
 input[type="text"] {
  width: 150px;
 }
-
-p{
-  float :right;
-  color: red;
-  }
+p[id = "start_a_new_page"]{
+ 
+ color: red;
+}
+p[id = "temp_container"]{
+ 
+ color: green;
+}
 h1{
   text-align: left;
   }
