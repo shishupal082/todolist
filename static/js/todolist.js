@@ -14,7 +14,7 @@ function myFunction(el) {
 	y.innerHTML = x;
 	$(el).parent().append(y);
 
-	}
+}
 
 
 function mynewFunction1(el)
@@ -22,7 +22,7 @@ function mynewFunction1(el)
        var x=el.value;
        var y=document.createElement("li");
        y.innerHTML = x;
-       $("#collaborator1").append(y);
+       $(el).append(y);
 }
 
 
